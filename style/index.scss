@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+@import "./variables.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Bakbak One";
+}
+
+header {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+
+  background-color: $primary-color;
+
+  border-bottom: 10px solid $black-color;
+
+  nav ul li {
+    display: inline-block;
+    font-size: 20px;
+
+    a {
+      margin-right: 30px;
+      color: $white-color;
+      text-decoration: none;
+    }
+
+    a::before {
+      content: "■ ";
+      color: $secondary-color;
+    }
+
+    #download-button {
+      padding: 17px 19px;
+      margin-right: 0;
+
+      box-shadow: 5px 5px $black-color;
+      background-color: $secondary-color;
+    }
+
+    #download-button::before {
+      content: "";
+    }
+  }
+}
