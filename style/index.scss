@@ -1,5 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
 @import "./variables.scss";
+@import "./components/navigation.scss";
+@import "./components/button.scss";
+@import "./components/title.scss";
+@import "./components/subtitle.scss";
+@import "./components/title-box.scss";
 
 body {
   margin: 0;
@@ -20,31 +24,26 @@ header {
 
   border-bottom: 10px solid $black-color;
 
-  nav ul li {
-    display: inline-block;
-    font-size: 20px;
-
-    a {
-      margin-right: 30px;
-      color: $white-color;
-      text-decoration: none;
-    }
-
-    a::before {
-      content: "■ ";
-      color: $secondary-color;
-    }
-
-    #download-button {
-      padding: 17px 19px;
-      margin-right: 0;
-
-      box-shadow: 5px 5px $black-color;
-      background-color: $secondary-color;
-    }
-
-    #download-button::before {
-      content: "";
-    }
+  ul li {
+    @include navigation;
+    @include button;
   }
+}
+
+#title-box {
+  @include title-box;
+
+  h1 {
+    @include title;
+  }
+
+  h2 {
+    @include subtitle;
+  }
+}
+
+ul li {
+  display: inline-block;
+
+  @include button;
 }

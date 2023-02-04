@@ -1,0 +1,7 @@
+@import "../variables.scss";
+
+@mixin title {
+    font-size: 82px;
+    color: $secondary-color;
+    text-shadow: 4px 4px $black-color;
+}

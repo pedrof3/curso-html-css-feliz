@@ -21,3 +21,11 @@ Desenvolvimento do header da página juntamente com sua estilização no CSS, ut
 Fácil - Mude o logo e as cores do header
 Médio - Colocar comportamento diferente no botão
 Difícil - Subir o site com GitHub Pages
+
+## Mod 02 - Git e GitHub
+Primeiros passos com Git e GitHub, conhecendo alguns comandos do Git, e subindo o código para um repositório no GitHub.
+
+### Desafio - Mod 02
+Fácil - Desenvolver o title do banner do nosso portfólio
+Médio - Implementar os botões de modo que funcionem em conjunto com o botão "Download CV" do header
+Difícil - Colocar a foto de fundo e posicionar os elementos de forma correta

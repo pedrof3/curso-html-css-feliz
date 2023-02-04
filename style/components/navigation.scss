@@ -1,0 +1,17 @@
+@import "../variables.scss";
+
+@mixin navigation {
+  display: inline-block;
+  font-size: 20px;
+
+  a {
+    margin-right: 30px;
+    color: $white-color;
+    text-decoration: none;
+  }
+
+  a::before {
+    content: "■ ";
+    color: $secondary-color;
+  }
+}

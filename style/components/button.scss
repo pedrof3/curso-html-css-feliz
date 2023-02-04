@@ -1,0 +1,18 @@
+@import "../variables.scss";
+
+@mixin button {
+
+  .button {
+    padding: 17px 19px;
+    margin-right: 0;
+
+    text-decoration: none;
+    color: $white-color;
+    background-color: $secondary-color;
+    box-shadow: 5px 5px $black-color;
+  }
+
+  .button::before {
+    content: "";
+  }
+}
