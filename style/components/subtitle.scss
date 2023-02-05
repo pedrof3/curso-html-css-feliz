@@ -1,7 +1,9 @@
 @import "../variables.scss";
 
 @mixin subtitle {
-  font-size: 30px;
-  color: $white-color;
-  text-shadow: 4px 4px $black-color;
+  .subtitle {
+    font-size: 30px;
+    color: $white-color;
+    text-shadow: 4px 4px $black-color;
+  }
 }

@@ -1,0 +1,33 @@
+@import "../variables.scss";
+@import "title-box.scss";
+@import "button.scss";
+
+@mixin banner {
+  .banner {
+    display: block;
+    height: 500px;
+    padding: 110px 90px;
+    background: linear-gradient(
+      180deg,
+      rgba(128, 136, 255, 1) 0%,
+      rgba(25, 32, 128, 1) 100%
+    );
+    border-bottom: 10px solid $black-color;
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 650px;
+    }
+
+    @include title-box;
+    
+
+    .navigation {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    @include button;
+  }
+}

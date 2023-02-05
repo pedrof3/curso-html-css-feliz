@@ -1,49 +1,6 @@
-@import "./variables.scss";
-@import "./components/navigation.scss";
-@import "./components/button.scss";
-@import "./components/title.scss";
-@import "./components/subtitle.scss";
-@import "./components/title-box.scss";
+@import "variables.scss";
+@import "./components/header.scss";
+@import "./components/banner.scss";
 
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-  font-family: "Bakbak One";
-}
-
-header {
-  display: flex;
-  height: 90px;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-
-  background-color: $primary-color;
-
-  border-bottom: 10px solid $black-color;
-
-  ul li {
-    @include navigation;
-    @include button;
-  }
-}
-
-#title-box {
-  @include title-box;
-
-  h1 {
-    @include title;
-  }
-
-  h2 {
-    @include subtitle;
-  }
-}
-
-ul li {
-  display: inline-block;
-
-  @include button;
-}
+@include header;
+@include banner;
