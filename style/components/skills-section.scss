@@ -1,13 +1,13 @@
 @import "../variables.scss";
-@import "section-title.scss";
+@import "title.scss";
 
 @mixin skills-section {
   .skills-section {
     padding: 50px 240px;
     background-color: $secondary-color;
     border-bottom: 10px solid $primary-color;
-
-    @include section-title;
+    
+    @include title;
 
     .skills-box {
       display: flex;

@@ -55,6 +55,12 @@
   color: #192080;
   text-shadow: 4px 4px #000;
 }
+.banner-section .title-box .title.-section {
+  font-size: 64px;
+  text-align: center;
+  color: #fff;
+  text-shadow: none;
+}
 .banner-section .title-box .subtitle {
   font-size: 30px;
   color: #fff;
@@ -81,10 +87,16 @@
   background-color: #192080;
   border-bottom: 10px solid #8088FF;
 }
-.skills-section .section-title {
+.skills-section .title {
+  font-size: 82px;
+  color: #192080;
+  text-shadow: 4px 4px #000;
+}
+.skills-section .title.-section {
   font-size: 64px;
   text-align: center;
   color: #fff;
+  text-shadow: none;
 }
 .skills-section .skills-box {
   display: flex;

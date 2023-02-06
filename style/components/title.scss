@@ -3,7 +3,16 @@
 @mixin title {
   .title {
     font-size: 82px;
+    
     color: $secondary-color;
     text-shadow: 4px 4px $black-color;
+  }
+
+  .title.-section {
+    font-size: 64px;
+    text-align: center;
+
+    color: $white-color;
+    text-shadow: none;
   }
 }
