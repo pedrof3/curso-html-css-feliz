@@ -1,6 +1,7 @@
-@import "variables.scss";
 @import "./components/header.scss";
-@import "./components/banner.scss";
+@import "./components/banner-section.scss";
+@import "./components/skills-section.scss";
 
 @include header;
-@include banner;
+@include banner-section;
+@include skills-section;

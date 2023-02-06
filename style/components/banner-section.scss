@@ -2,8 +2,8 @@
 @import "title-box.scss";
 @import "button.scss";
 
-@mixin banner {
-  .banner {
+@mixin banner-section {
+  .banner-section {
     display: block;
     height: 500px;
     padding: 110px 90px;
@@ -22,7 +22,6 @@
 
     @include title-box;
     
-
     .navigation {
       display: flex;
       justify-content: space-around;

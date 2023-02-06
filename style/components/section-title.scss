@@ -1,0 +1,10 @@
+@import "../variables.scss";
+
+@mixin section-title {
+    .section-title {
+        font-size: 64px;
+        text-align: center;
+
+        color: $white-color;
+    }
+}

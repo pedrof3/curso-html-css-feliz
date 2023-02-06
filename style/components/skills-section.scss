@@ -1,0 +1,50 @@
+@import "../variables.scss";
+@import "section-title.scss";
+
+@mixin skills-section {
+  .skills-section {
+    padding: 50px 240px;
+    background-color: $secondary-color;
+    border-bottom: 10px solid $primary-color;
+
+    @include section-title;
+
+    .skills-box {
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+    }
+
+    .skill {
+      display: inline-flex;
+      justify-content: center;
+      margin: 10px;
+      font-size: 25px;
+
+      color: $white-color;
+    }
+
+    .skill img {
+      width: 8%;
+    }
+
+    .skill .box {
+      margin-left: 10px;
+    }
+
+    .skill .bar {
+      width: 320px;
+      height: 30px;
+
+      background-color: #fff;
+      border: 3px solid $black-color;
+    }
+
+    .skill .progress {
+      width: 200px;
+      height: 24px;
+
+      background-color: $primary-color;
+    }
+  }
+}

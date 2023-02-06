@@ -29,3 +29,11 @@ Primeiros passos com Git e GitHub, conhecendo alguns comandos do Git, e subindo 
 Fácil - Desenvolver o title do banner do nosso portfólio
 Médio - Implementar os botões de modo que funcionem em conjunto com o botão "Download CV" do header
 Difícil - Colocar a foto de fundo e posicionar os elementos de forma correta
+
+## Mod 03 - Banner, id, class e componentes
+Implementação e estilização completa do banner, usando conceitos de classes e componentes.
+
+### Desafio - Mod 03
+Fácil - Título, cor de fundo e borda da seção de skills
+Médio - Criar componente das skills, logo, nome e barra de progresso
+Difícil - Estilizar a barra de progresso
